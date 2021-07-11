@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="Nexus 7" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7f509ca-e6d8-49ed-a5ca-c324c4d96486" name="Default Changelist" comment="UI FIXES AND DAY/NIGHT THEME MODE" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\hp pc\.android\avd\Nexus_5X_API_29_x86.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NewsBit" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NewsBit" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NewsBit" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+        <option value="Kotlin Class" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1uMZUuxPWuzl3FKqu0g7LFL8lkD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ResourceManagerPrefKey.ResourceType" value="NAVIGATION" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Build Variants" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="false" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-1868181740">
+      <recent name="com.example.android.newsbit.ui" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.example.android.newsbit.adapters" />
+      <recent name="com.example.android.newsbit.models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Project\NEWS BIT 10th july\NewsBit2-master2\NewsBit2-master2\app\src\main\res\drawable-v24" />
+      <recent name="F:\Project\NEWS BIT 10th july\NewsBit2-master2\NewsBit2-master2\app" />
+      <recent name="C:\Users\Shivam\Desktop\NewsBit-master\app\src\main\res\drawable-v24" />
+      <recent name="C:\Users\Shivam\Desktop\NewsBit-master\app\src\main\java\com\example\android\newsbit\adapters" />
+      <recent name="C:\Users\Shivam\Desktop\NewsBit-master\app" />
+    </key>
+    <key name="android.template.287976929">
+      <recent name="com.example.android.newsbit.ui" />
+      <recent name="com.example.android.newsbit.ui.fragments" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Shivam\Desktop\NewsBit-master\app\src\main\res\drawable-v24" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle signingReport" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="NewsBit.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsBit-master [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.NewsBit-master [signingReport]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7f509ca-e6d8-49ed-a5ca-c324c4d96486" name="Default Changelist" comment="" />
+      <created>1624477438032</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624477438032</updated>
+    </task>
+    <task id="LOCAL-00001" summary="LOGIN SIGIN ONBOARDING">
+      <created>1624962425401</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624962425401</updated>
+    </task>
+    <task id="LOCAL-00002" summary="SHARED PREFERENCE EXPLORE">
+      <created>1624980721159</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624980721159</updated>
+    </task>
+    <task id="LOCAL-00003" summary="UI and OTP">
+      <created>1625074896119</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625074896119</updated>
+    </task>
+    <task id="LOCAL-00004" summary="UI and OTP">
+      <created>1625075084369</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625075084369</updated>
+    </task>
+    <task id="LOCAL-00005" summary="UI and OTP">
+      <created>1625075833441</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625075833441</updated>
+    </task>
+    <task id="LOCAL-00006" summary="FINAL P UI LEFT">
+      <created>1625082549769</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625082549769</updated>
+    </task>
+    <task id="LOCAL-00007" summary="FINAL">
+      <created>1625594416807</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1625594416808</updated>
+    </task>
+    <task id="LOCAL-00008" summary="UI FIXES AND DAY/NIGHT THEME MODE">
+      <created>1625828392438</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1625828392438</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="LOGIN SIGIN ONBOARDING" />
+    <MESSAGE value="SHARED PREFERENCE EXPLORE" />
+    <MESSAGE value="UI and OTP" />
+    <MESSAGE value="FINAL P UI LEFT" />
+    <MESSAGE value="FINAL" />
+    <MESSAGE value="UI FIXES AND DAY/NIGHT THEME MODE" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI FIXES AND DAY/NIGHT THEME MODE" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="435" y="172" key="#Images" timestamp="1625926741636">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="172" key="#Images/0.0.1366.728@0.0.1366.728" timestamp="1625926741636" />
+    <state x="81" y="47" key="#PSD" timestamp="1625926316246">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="81" y="47" key="#PSD/0.0.1366.728@0.0.1366.728" timestamp="1625926316246" />
+    <state x="428" y="11" key="#com.intellij.ide.util.MemberChooser" timestamp="1625839400295">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="428" y="11" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1625839400295" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1625987211690">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1625987211690" />
+    <state x="260" y="111" key="AndroidCreateResourceFileDialog" timestamp="1625942832609">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="260" y="111" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1625942832609" />
+    <state x="496" y="109" key="AndroidCreateXmlResourceDialog" timestamp="1625652732393">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="496" y="109" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1625652732393" />
+    <state x="248" y="0" key="CommitChangelistDialog2" timestamp="1624549351812">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="248" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1624549351812" />
+    <state x="410" y="45" key="FileChooserDialogImpl" timestamp="1625989028635">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="410" y="45" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1625989028635" />
+    <state x="534" y="237" key="Github.ShareDialog" timestamp="1625988904969">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="534" y="237" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1625988904969" />
+    <state x="230" y="4" key="Github.UntrackedFilesDialog" timestamp="1624549393024">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="230" y="4" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1624549393024" />
+    <state width="1322" height="555" key="GridCell.Tab.0.bottom" timestamp="1625987708807">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="555" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625987708807" />
+    <state width="1322" height="555" key="GridCell.Tab.0.center" timestamp="1625987708807">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="555" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625987708807" />
+    <state width="1322" height="555" key="GridCell.Tab.0.left" timestamp="1625987708791">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="555" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625987708791" />
+    <state width="1322" height="555" key="GridCell.Tab.0.right" timestamp="1625987708807">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="555" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625987708807" />
+    <state x="74" y="0" key="SettingsEditor" timestamp="1625757618987">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="74" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1625757618987" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1625828408345">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1625828408345" />
+    <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1625987500307">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1625987500307" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1625988482965">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1625988482965" />
+    <state x="450" y="97" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1625075036322">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="450" y="97" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.728@0.0.1366.728" timestamp="1625075036322" />
+    <state x="461" y="260" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1625828148116">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="461" y="260" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1625828148116" />
+    <state x="255" y="159" width="840" height="1034" key="run.anything.popup" timestamp="1625128824051">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="255" y="159" width="840" height="1034" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1625128824051" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1624977099712">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1624977099712" />
+  </component>
+</project>

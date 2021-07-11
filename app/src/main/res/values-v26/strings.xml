@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="profile">profile</string>
+    <string name="home">Home</string>
+    <string name="explore">Explore</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="newsbit">NEWSBIT</string>
+    <string name="account">ACCOUNT</string>
+    <string name="newsbit_gmail_com">newsbit@gmail.com</string>
+    <string name="logout">LOGOUT</string>
+</resources>

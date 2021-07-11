@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_source_news.xml",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\fragment_source_news.xml"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_settings.xml",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_news.xml",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\item_news.xml"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_bookmark.xml",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\fragment_bookmark.xml"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_top_news.xml",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\fragment_top_news.xml"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_in.xml",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\activity_sign_in.xml"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_search.xml",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_article.xml",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\fragment_article.xml"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_explore.xml",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\fragment_explore.xml"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_category.xml",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\item_category.xml"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_category_news.xml",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\fragment_category_news.xml"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_error_message.xml",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\item_error_message.xml"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\onboarding_screen_layout.xml",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\onboarding_screen_layout.xml"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_on_board_screens.xml",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\activity_on_board_screens.xml"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

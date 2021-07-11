@@ -1,0 +1,42 @@
+com/example/android/newsbit/BuildConfig.java
+ com.example.android.newsbit.BuildConfig
+com/example/android/newsbit/db/ArticleDatabase_Impl.java
+ com.example.android.newsbit.db.ArticleDatabase_Impl
+ com.example.android.newsbit.db.ArticleDatabase_Impl$1
+com/example/android/newsbit/db/ArticleDao_Impl.java
+ com.example.android.newsbit.db.ArticleDao_Impl
+ com.example.android.newsbit.db.ArticleDao_Impl$1
+ com.example.android.newsbit.db.ArticleDao_Impl$2
+ com.example.android.newsbit.db.ArticleDao_Impl$3
+ com.example.android.newsbit.db.ArticleDao_Impl$4
+ com.example.android.newsbit.db.ArticleDao_Impl$5
+com/example/android/newsbit/databinding/ActivityOnBoardScreensBinding.java
+ com.example.android.newsbit.databinding.ActivityOnBoardScreensBinding
+com/example/android/newsbit/databinding/FragmentBookmarkBinding.java
+ com.example.android.newsbit.databinding.FragmentBookmarkBinding
+com/example/android/newsbit/databinding/FragmentCategoryNewsBinding.java
+ com.example.android.newsbit.databinding.FragmentCategoryNewsBinding
+com/example/android/newsbit/databinding/FragmentSearchBinding.java
+ com.example.android.newsbit.databinding.FragmentSearchBinding
+com/example/android/newsbit/databinding/ItemErrorMessageBinding.java
+ com.example.android.newsbit.databinding.ItemErrorMessageBinding
+com/example/android/newsbit/databinding/FragmentTopNewsBinding.java
+ com.example.android.newsbit.databinding.FragmentTopNewsBinding
+com/example/android/newsbit/databinding/FragmentArticleBinding.java
+ com.example.android.newsbit.databinding.FragmentArticleBinding
+com/example/android/newsbit/databinding/FragmentExploreBinding.java
+ com.example.android.newsbit.databinding.FragmentExploreBinding
+com/example/android/newsbit/databinding/ActivitySignInBinding.java
+ com.example.android.newsbit.databinding.ActivitySignInBinding
+com/example/android/newsbit/databinding/OnboardingScreenLayoutBinding.java
+ com.example.android.newsbit.databinding.OnboardingScreenLayoutBinding
+com/example/android/newsbit/databinding/ItemCategoryBinding.java
+ com.example.android.newsbit.databinding.ItemCategoryBinding
+com/example/android/newsbit/databinding/ItemNewsBinding.java
+ com.example.android.newsbit.databinding.ItemNewsBinding
+com/example/android/newsbit/databinding/FragmentSourceNewsBinding.java
+ com.example.android.newsbit.databinding.FragmentSourceNewsBinding
+com/example/android/newsbit/databinding/ActivityMainBinding.java
+ com.example.android.newsbit.databinding.ActivityMainBinding
+com/example/android/newsbit/databinding/FragmentSettingsBinding.java
+ com.example.android.newsbit.databinding.FragmentSettingsBinding

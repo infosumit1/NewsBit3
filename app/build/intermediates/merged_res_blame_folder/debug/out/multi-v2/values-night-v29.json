@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v29\\values-night-v29.xml",
+            "map": [
+                {
+                    "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\values-night-v29\\themes.xml",
+                    "from": {
+                        "startLines": "3,22",
+                        "startColumns": "4,4",
+                        "startOffsets": "103,1143",
+                        "endLines": "20,28",
+                        "endColumns": "12,12",
+                        "endOffsets": "1137,1565"
+                    },
+                    "to": {
+                        "startLines": "2,20",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,1137",
+                        "endLines": "19,26",
+                        "endColumns": "12,12",
+                        "endOffsets": "1132,1557"
+                    }
+                }
+            ]
+        }
+    ]
+}

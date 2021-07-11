@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSecondary"
+    android:forceDarkAllowed="false"
+    tools:context=".ui.SignInActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/logo_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/flag_transparent"
+        android:elevation="12dp"
+        app:cardBackgroundColor="?attr/colorOnSecondary"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/newsbit"
+            app:srcCompat="@drawable/newsbit" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="40dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSlogan">
+
+        <TextView
+            android:id="@+id/otp_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/overpass"
+            android:text="OTP has been sent to 6394731159"
+            android:textColor="#0485BF"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <!--        <com.rilixtech.widget.countrycodepicker.CountryCodePicker-->
+        <!--            android:id="@+id/ccp"-->
+        <!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="0dp"-->
+        <!--            android:outlineAmbientShadowColor="?attr/colorSecondary"-->
+        <!--            android:outlineSpotShadowColor="@color/black"-->
+        <!--            app:ccp_arrowSize="30dp"-->
+        <!--            app:ccp_enableHint="false"-->
+        <!--            app:ccp_textColor="?attr/colorSecondary"-->
+        <!--            app:ccp_textFont="sans-serif-condensed-medium"-->
+        <!--            app:ccp_textSize="18dp" />-->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/phone_num"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="2dp"
+            android:elevation="2dp"
+            android:hint="Phone Number"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/button_bg"
+            android:textColorHint="#0485BF"
+            app:boxStrokeColor="#0485BF"
+            app:errorTextColor="@android:color/holo_red_dark"
+            app:hintEnabled="true"
+            app:hintTextColor="#0485BF"
+            app:startIconDrawable="@android:drawable/stat_sys_phone_call"
+            app:startIconTint="#0485BF">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/phoneNum"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/overpass"
+                android:inputType="number"
+                android:background="@drawable/flag_transparent"
+                android:textAlignment="textStart"
+                android:textColor="#0485BF"
+                android:textSize="18dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/otp_textView"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:elevation="2dp"
+            android:hint="Enter 6 digit OTP"
+            android:textColorHint="?attr/colorPrimary"
+            android:background="@drawable/button_bg"
+            android:visibility="gone"
+            app:boxStrokeColor="?attr/colorPrimary"
+            app:errorTextColor="@android:color/holo_red_dark"
+            app:hintEnabled="true"
+            app:hintTextColor="?attr/colorPrimary"
+            app:startIconDrawable="@android:drawable/ic_lock_idle_lock"
+            app:startIconTint="?attr/colorPrimary">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/otp_txtNum"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/flag_transparent"
+                android:fontFamily="@font/overpass"
+                android:inputType="numberPassword"
+                android:textAlignment="textStart"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="18dp" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/otp_resend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/flag_transparent"
+            android:fontFamily="@font/overpass"
+            android:text="Didn't get the code? Resend in..."
+            android:textColor="?attr/colorPrimary"
+            android:textSize="12dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/verifyBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/button_bg_clicked"
+            android:fontFamily="@font/overpass"
+            android:text="Sign In"
+            android:textColor="#0485BF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/verifyOTPBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/button_bg_clicked"
+            android:fontFamily="@font/overpass"
+            android:text="Verify"
+            android:textColor="#0485BF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtSlogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/overpass"
+        android:text="Sign In"
+        android:textAllCaps="true"
+        android:textColor="#0485BF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_img" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_ll">
+
+        <TextView
+            android:id="@+id/txtSlogan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/overpass"
+            android:text="Via Social Media"
+            android:textAllCaps="true"
+            android:textColor="#0485BF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_ll" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="?attr/colorOnSecondary"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/google_login_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:padding="10dp">
+
+                    <ImageButton
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="#00000000"
+                        android:elevation="@dimen/cardview_compat_inset_shadow"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/google" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="@font/overpass"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="SIGN IN WITH GOOGLE"
+                        android:textAllCaps="true"
+                        android:textColor="?attr/colorPrimary"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
