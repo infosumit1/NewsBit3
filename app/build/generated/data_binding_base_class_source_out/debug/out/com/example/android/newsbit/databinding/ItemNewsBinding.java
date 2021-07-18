@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import com.example.android.newsbit.R;
+import com.github.curioustechizen.ago.RelativeTimeTextView;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.card.MaterialCardView;
 import java.lang.NullPointerException;
@@ -30,25 +31,21 @@ public final class ItemNewsBinding implements ViewBinding {
   public final ImageView image;
 
   @NonNull
-  public final MaterialButton shareButton;
-
-  @NonNull
   public final TextView sourceName;
 
   @NonNull
-  public final TextView timestamp;
+  public final RelativeTimeTextView timestamp;
 
   @NonNull
   public final TextView title;
 
   private ItemNewsBinding(@NonNull MaterialCardView rootView, @NonNull MaterialButton button,
-      @NonNull TextView description, @NonNull ImageView image, @NonNull MaterialButton shareButton,
-      @NonNull TextView sourceName, @NonNull TextView timestamp, @NonNull TextView title) {
+      @NonNull TextView description, @NonNull ImageView image, @NonNull TextView sourceName,
+      @NonNull RelativeTimeTextView timestamp, @NonNull TextView title) {
     this.rootView = rootView;
     this.button = button;
     this.description = description;
     this.image = image;
-    this.shareButton = shareButton;
     this.sourceName = sourceName;
     this.timestamp = timestamp;
     this.title = title;
@@ -99,12 +96,6 @@ public final class ItemNewsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.shareButton;
-      MaterialButton shareButton = rootView.findViewById(id);
-      if (shareButton == null) {
-        break missingId;
-      }
-
       id = R.id.source_name;
       TextView sourceName = rootView.findViewById(id);
       if (sourceName == null) {
@@ -112,7 +103,7 @@ public final class ItemNewsBinding implements ViewBinding {
       }
 
       id = R.id.timestamp;
-      TextView timestamp = rootView.findViewById(id);
+      RelativeTimeTextView timestamp = rootView.findViewById(id);
       if (timestamp == null) {
         break missingId;
       }
@@ -124,7 +115,7 @@ public final class ItemNewsBinding implements ViewBinding {
       }
 
       return new ItemNewsBinding((MaterialCardView) rootView, button, description, image,
-          shareButton, sourceName, timestamp, title);
+          sourceName, timestamp, title);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

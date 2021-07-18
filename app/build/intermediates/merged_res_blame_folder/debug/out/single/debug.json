@@ -24,12 +24,12 @@
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable-v24\\v.png"
     },
     {
-        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_foreground.png"
-    },
-    {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_engadget.png.flat",
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable-v24\\engadget.png"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_in.xml.flat",
@@ -64,12 +64,12 @@
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable\\search_view.xml"
     },
     {
-        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_search.xml.flat",
-        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\fragment_search.xml"
-    },
-    {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_news.png.flat",
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable\\news.png"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_search.xml.flat",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\fragment_search.xml"
     },
     {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_p.png.flat",
@@ -78,6 +78,10 @@
     {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_newsbit_launcher_round.png.flat",
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\mipmap-hdpi\\ic_newsbit_launcher_round.png"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_newsbit1.png.flat",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable-v24\\newsbit1.png"
     },
     {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
@@ -156,6 +160,10 @@
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\item_news.xml"
     },
     {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_the_next_web.png.flat",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable-v24\\the_next_web.png"
+    },
+    {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_newsbit_launcher.png.flat",
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_newsbit_launcher.png"
     },
@@ -216,10 +224,6 @@
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\fragment_explore.xml"
     },
     {
-        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_not_found.jpg.flat",
-        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable-v24\\not_found.jpg"
-    },
-    {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_newsbit_launcher_round.png.flat",
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\mipmap-mdpi\\ic_newsbit_launcher_round.png"
     },
@@ -232,8 +236,16 @@
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_newsbit_launcher.png"
     },
     {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_tr.png.flat",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable-v24\\tr.png"
+    },
+    {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\menu_app_bar_menu.xml.flat",
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\menu\\app_bar_menu.xml"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_crypto.png.flat",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable-v24\\crypto.png"
     },
     {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_newsbit_launcher.png.flat",
@@ -254,6 +266,10 @@
     {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_no_response.xml.flat",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\fragment_no_response.xml"
     },
     {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_satellite.png.flat",
@@ -304,12 +320,12 @@
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.xml.flat",
-        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable\\ic_search.xml"
-    },
-    {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_bg_clicked.xml.flat",
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable\\button_bg_clicked.xml"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.xml.flat",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable\\ic_search.xml"
     },
     {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\raw_sports.json.flat",
@@ -342,10 +358,6 @@
     {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_newsbit_launcher_round.png.flat",
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_newsbit_launcher_round.png"
-    },
-    {
-        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_tr.jpg.flat",
-        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable-v24\\tr.jpg"
     },
     {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_corona.png.flat",
@@ -420,6 +432,10 @@
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable-v24\\entertainment.png"
     },
     {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_not_found1.png.flat",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable-v24\\not_found1.png"
+    },
+    {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_navigation_selector.xml.flat",
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable\\bottom_navigation_selector.xml"
     },
@@ -450,6 +466,10 @@
     {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_no_bookmark1.png.flat",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable-v24\\no_bookmark1.png"
     },
     {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_newsbit_launcher_round.png.flat",

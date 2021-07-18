@@ -76,7 +76,7 @@ class ExploreFragment : Fragment(R.layout.fragment_explore) {
             Category("Entertainment", R.drawable.clapperboard, false),
             Category("Health", R.drawable.hospital, false),
             Category("International", R.drawable.global, true),
-            Category("Cryptocurrency", R.drawable.journalist, true),
+            Category("Cryptocurrency", R.drawable.crypto, true),
             Category("Science", R.drawable.science, false),
             Category("Sports", R.drawable.sports, false),
             Category("Technology", R.drawable.satellite, false)
@@ -86,13 +86,12 @@ class ExploreFragment : Fragment(R.layout.fragment_explore) {
 
         newsSources = mutableListOf(
             NewsSource("bbc-news", "BBC", R.drawable.bbc),
-            NewsSource("the-times-of-india", "Times Of India", R.drawable.times_of_india),
             NewsSource("engadget", "Engadget", R.drawable.engadget),
             NewsSource("espn", "ESPN", R.drawable.espn),
-            NewsSource("national-geographic", "Nat Geo", R.drawable.natgeo),
             NewsSource("polygon", "Polygon", R.drawable.p),
             NewsSource("techcrunch", "Tech Crunch", R.drawable.techcrunch),
-            NewsSource("the-next-web", "NextWeb", R.drawable.technology),
+            NewsSource("the-times-of-india", "Times Of India", R.drawable.times_of_india),
+            NewsSource("the-next-web", "NextWeb", R.drawable.the_next_web),
             NewsSource("the-verge", "Verge", R.drawable.v),
             NewsSource("techradar", "Tech Radar", R.drawable.tr)
         )

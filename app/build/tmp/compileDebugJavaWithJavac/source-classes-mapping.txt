@@ -20,6 +20,8 @@ com/example/android/newsbit/databinding/FragmentSearchBinding.java
  com.example.android.newsbit.databinding.FragmentSearchBinding
 com/example/android/newsbit/databinding/ItemErrorMessageBinding.java
  com.example.android.newsbit.databinding.ItemErrorMessageBinding
+com/example/android/newsbit/databinding/FragmentNoResponseBinding.java
+ com.example.android.newsbit.databinding.FragmentNoResponseBinding
 com/example/android/newsbit/databinding/FragmentTopNewsBinding.java
  com.example.android.newsbit.databinding.FragmentTopNewsBinding
 com/example/android/newsbit/databinding/FragmentArticleBinding.java

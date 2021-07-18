@@ -13,8 +13,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="852" />
-                            <option name="y" value="464" />
+                            <option name="x" value="988" />
+                            <option name="y" value="419" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -25,8 +25,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="572" />
-                            <option name="y" value="852" />
+                            <option name="x" value="744" />
+                            <option name="y" value="419" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -46,13 +46,18 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="572" />
-                            <option name="y" value="432" />
+                            <option name="x" value="744" />
+                            <option name="y" value="1131" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
                             <entry key="action_categoryNewsFragment_to_articleFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_categoryNewsFragment_to_noResponseFragment">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -67,8 +72,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="356" />
-                            <option name="y" value="-206" />
+                            <option name="x" value="500" />
+                            <option name="y" value="1067" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -93,13 +98,25 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="noResponseFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="988" />
+                            <option name="y" value="1173" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="searchFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="932" />
-                            <option name="y" value="3" />
+                            <option name="x" value="744" />
+                            <option name="y" value="63" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -119,8 +136,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="331" />
-                            <option name="y" value="485" />
+                            <option name="x" value="12" />
+                            <option name="y" value="12" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -131,13 +148,18 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="572" />
-                            <option name="y" value="12" />
+                            <option name="x" value="744" />
+                            <option name="y" value="775" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
                             <entry key="action_sourceNewsFragment_to_articleFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_sourceNewsFragment_to_noResponseFragment">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -152,13 +174,18 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="186" />
-                            <option name="y" value="1000" />
+                            <option name="x" value="256" />
+                            <option name="y" value="1266" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
                             <entry key="action_topNewsFragment_to_articleFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_topNewsFragment_to_noResponseFragment">
                               <value>
                                 <LayoutPositions />
                               </value>

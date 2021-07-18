@@ -103,4 +103,7 @@ dependencies {
 
     // Also declare the dependency for the Google Play services library and specify its version
     implementation 'com.google.android.gms:play-services-auth:19.0.0'
+
+    //Time Parser Dependency
+    implementation 'com.github.curioustechizen.android-ago:library:1.4.0'
 }

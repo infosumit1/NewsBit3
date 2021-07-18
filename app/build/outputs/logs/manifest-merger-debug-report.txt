@@ -30,6 +30,7 @@ MERGED from [com.github.joielechong:countrycodepicker:2.4.2] C:\Users\hp pc\.gra
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\hp pc\.gradle\caches\transforms-2\files-2.1\351b05cb18171dd53d32cb3f20744580\firebase-auth-21.0.1\AndroidManifest.xml:17:1-83:12
 MERGED from [androidx.browser:browser:1.3.0] C:\Users\hp pc\.gradle\caches\transforms-2\files-2.1\abbdf0a754b318ba2eaa0e656e4479ee\browser-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\hp pc\.gradle\caches\transforms-2\files-2.1\1b9d573256b6987c63c703e27c7518e8\play-services-auth-19.0.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.github.curioustechizen.android-ago:library:1.4.0] C:\Users\hp pc\.gradle\caches\transforms-2\files-2.1\c753a10f1495b3d2c9abc1381e8e7412\library-1.4.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\hp pc\.gradle\caches\transforms-2\files-2.1\25b3099278fad080af2ba8f3f84a7817\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\hp pc\.gradle\caches\transforms-2\files-2.1\f7db7c9e58f63ec61ecc0ddffc44a96c\firebase-common-20.0.0\AndroidManifest.xml:15:1-40:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\hp pc\.gradle\caches\transforms-2\files-2.1\2e6b648c1da8cc5d1a19b3555ff8dfe2\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -247,6 +248,8 @@ MERGED from [androidx.browser:browser:1.3.0] C:\Users\hp pc\.gradle\caches\trans
 MERGED from [androidx.browser:browser:1.3.0] C:\Users\hp pc\.gradle\caches\transforms-2\files-2.1\abbdf0a754b318ba2eaa0e656e4479ee\browser-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\hp pc\.gradle\caches\transforms-2\files-2.1\1b9d573256b6987c63c703e27c7518e8\play-services-auth-19.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\hp pc\.gradle\caches\transforms-2\files-2.1\1b9d573256b6987c63c703e27c7518e8\play-services-auth-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.curioustechizen.android-ago:library:1.4.0] C:\Users\hp pc\.gradle\caches\transforms-2\files-2.1\c753a10f1495b3d2c9abc1381e8e7412\library-1.4.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.curioustechizen.android-ago:library:1.4.0] C:\Users\hp pc\.gradle\caches\transforms-2\files-2.1\c753a10f1495b3d2c9abc1381e8e7412\library-1.4.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\hp pc\.gradle\caches\transforms-2\files-2.1\25b3099278fad080af2ba8f3f84a7817\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\hp pc\.gradle\caches\transforms-2\files-2.1\25b3099278fad080af2ba8f3f84a7817\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\hp pc\.gradle\caches\transforms-2\files-2.1\f7db7c9e58f63ec61ecc0ddffc44a96c\firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41

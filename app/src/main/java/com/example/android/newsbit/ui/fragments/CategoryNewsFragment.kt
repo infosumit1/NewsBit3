@@ -119,8 +119,13 @@ class CategoryNewsFragment : Fragment(R.layout.fragment_category_news) {
                     hideErrorMessage()
                     it.data?.let { categoryNewsResponse ->
                         /*Log.e(TAG, categoryNewsResponse.articles.size.toString())*/
-                        categoryNewsAdapter.differ.submitList(categoryNewsResponse.articles.toList())
-                        totalResults = categoryNewsResponse.totalResults
+                        if(!categoryNewsResponse.articles.isNullOrEmpty()){
+                            categoryNewsAdapter.differ.submitList(categoryNewsResponse.articles.toList())
+                            totalResults = categoryNewsResponse.totalResults
+                        }
+                        else{
+                            findNavController().navigate(R.id.action_categoryNewsFragment_to_noResponseFragment)
+                        }
                     }
                 }
                 is Resource.Error -> {

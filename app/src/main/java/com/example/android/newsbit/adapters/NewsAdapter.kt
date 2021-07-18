@@ -12,6 +12,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.android.newsbit.R
 import com.example.android.newsbit.models.Article
+import com.example.news.Common.ISO8601DateParser
+import com.github.curioustechizen.ago.RelativeTimeTextView
+import java.text.ParseException
+import java.util.*
 
 class NewsAdapter() : RecyclerView.Adapter<NewsAdapter.NewsViewHolder>() {
 
@@ -22,6 +26,7 @@ class NewsAdapter() : RecyclerView.Adapter<NewsAdapter.NewsViewHolder>() {
         val sourceView: TextView = itemView.findViewById(R.id.source_name)
         val imageView: ImageView = itemView.findViewById(R.id.image)
         val bookmarkBtn: Button = itemView.findViewById(R.id.button)
+        val publishedAt: RelativeTimeTextView = itemView.findViewById(R.id.timestamp)
 
     }
 
@@ -75,6 +80,19 @@ class NewsAdapter() : RecyclerView.Adapter<NewsAdapter.NewsViewHolder>() {
             holder.titleView.text = currentItem.title
             holder.descriptionView.text = currentItem.description
             holder.sourceView.text = currentItem.source.name
+
+
+            //using ISOParser to calculate timeStamp of News
+            if (currentItem.publishedAt != null) {
+                var date: Date? = null
+                try {
+                    date = ISO8601DateParser.parse(currentItem.publishedAt!!)
+                } catch (ex: ParseException) {
+                    ex.printStackTrace()
+                }
+                holder.publishedAt.setReferenceTime(date?.time!!)
+            }
+
 
             if(currentItem.urlToImage!=null)
                 Glide.with(holder.itemView.context).load(currentItem.urlToImage).into(holder.imageView)

@@ -783,10 +783,13 @@ attr ratingBarStyle
 attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
 attr recyclerViewStyle
+attr reference_time
 attr region_heightLessThan
 attr region_heightMoreThan
 attr region_widthLessThan
 attr region_widthMoreThan
+attr relative_time_prefix
+attr relative_time_suffix
 attr reverseLayout
 attr rippleColor
 attr round
@@ -1769,6 +1772,7 @@ drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable corona
 drawable covid
+drawable crypto
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -2078,8 +2082,10 @@ drawable news_app_icon
 drawable news_logo1
 drawable news_logo_2
 drawable newsbit
+drawable newsbit1
 drawable no_bookmark
-drawable not_found
+drawable no_bookmark1
+drawable not_found1
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -2107,6 +2113,7 @@ drawable techno_icon
 drawable technology
 drawable test_custom_background
 drawable the_hindu
+drawable the_next_web
 drawable times_of_india
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -2174,6 +2181,7 @@ id action_bar_subtitle
 id action_bar_title
 id action_bookmarkFragment_to_articleFragment
 id action_categoryNewsFragment_to_articleFragment
+id action_categoryNewsFragment_to_noResponseFragment
 id action_container
 id action_context_bar
 id action_divider
@@ -2188,8 +2196,10 @@ id action_mode_bar_stub
 id action_mode_close_button
 id action_searchFragment_to_articleFragment
 id action_sourceNewsFragment_to_articleFragment
+id action_sourceNewsFragment_to_noResponseFragment
 id action_text
 id action_topNewsFragment_to_articleFragment
+id action_topNewsFragment_to_noResponseFragment
 id actions
 id activity_chooser_view_content
 id add
@@ -2449,7 +2459,9 @@ id newsNavHostFragment
 id newsSourceItemView
 id news_nav_graph
 id next
+id noResponseFragment
 id noScroll
+id no_Result
 id no_result_tv
 id none
 id noresultBg
@@ -2532,7 +2544,6 @@ id selected
 id selected_country_tv
 id selection_type
 id settingsFragment
-id shareButton
 id shortcut
 id showCustom
 id showHome
@@ -2748,6 +2759,7 @@ layout fragment_article
 layout fragment_bookmark
 layout fragment_category_news
 layout fragment_explore
+layout fragment_no_response
 layout fragment_search
 layout fragment_settings
 layout fragment_source_news
@@ -3656,6 +3668,7 @@ string hide_bottom_view_on_scroll_behavior
 string home
 string icon_content_description
 string item_view_role_description
+string just_now
 string logout
 string material_clock_display_divider
 string material_clock_toggle_content_description
@@ -4564,6 +4577,7 @@ styleable RadialViewGroup materialCircleRadius
 styleable RangeSlider minSeparation values
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
 styleable RecyclerView android_orientation android_clipToPadding android_descendantFocusability fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd
+styleable RelativeTimeTextView reference_time relative_time_prefix relative_time_suffix
 styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon

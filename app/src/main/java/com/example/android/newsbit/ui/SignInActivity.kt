@@ -15,6 +15,7 @@ import android.view.WindowInsets
 import android.view.WindowInsetsController
 import android.view.WindowManager
 import android.widget.Toast
+import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.setPadding
@@ -40,7 +41,7 @@ class SignInActivity : AppCompatActivity() {
     lateinit var sharedPreferences: SharedPreferences
     private var codeSent: String = ""
     private lateinit var credential: PhoneAuthCredential
-
+    var pressedTime: Long = 0
     //    private lateinit var tokenID: PhoneAuthProvider.ForceResendingToken
     private lateinit var callbacks: PhoneAuthProvider.OnVerificationStateChangedCallbacks
     private lateinit var mAuth: FirebaseAuth
@@ -66,11 +67,11 @@ class SignInActivity : AppCompatActivity() {
         setTheme(R.style.Theme_NewsBit)
         super.onCreate(savedInstanceState)
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-        if (restorePrefData()) {
+        /*if (restorePrefData()) {
             val i = Intent(applicationContext, MainActivity::class.java)
             startActivity(i)
             finish()
-        }
+        }*/
 
         setContentView(R.layout.activity_sign_in)
 
@@ -179,6 +180,23 @@ class SignInActivity : AppCompatActivity() {
             }
         }
 
+
+        //ON BACK PRESS PRESS AGAIN TO EXIT PROMPT
+        this.onBackPressedDispatcher
+            .addCallback(this, object : OnBackPressedCallback(true) {
+                override fun handleOnBackPressed() {
+                    // Do custom work here
+                    if (pressedTime + 2000 > System.currentTimeMillis()) {
+                        if (isEnabled) {
+                            isEnabled = false
+                            this@SignInActivity.onBackPressed()
+                        }
+                    } else {
+                        Toast.makeText(applicationContext, "Press back again to exit", Toast.LENGTH_SHORT).show()
+                    }
+                    pressedTime = System.currentTimeMillis()
+                }
+            })
     }
 
     private fun otpSentEnableView() {

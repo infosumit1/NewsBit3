@@ -81,8 +81,14 @@ class SourceNewsFragment : Fragment(R.layout.fragment_source_news) {
                     hideErrorMessage()
                     it.data?.let { sourceNewsResponse ->
 
-                        sourceNewsAdapter.differ.submitList(sourceNewsResponse.articles.toList())
-                        totalResults = sourceNewsResponse.totalResults
+                        if(!sourceNewsResponse.articles.isNullOrEmpty()){
+                            sourceNewsAdapter.differ.submitList(sourceNewsResponse.articles.toList())
+                            totalResults = sourceNewsResponse.totalResults
+
+                        }
+                        else{
+                            findNavController().navigate(R.id.action_sourceNewsFragment_to_noResponseFragment)
+                        }
                     }
                 }
                 is Resource.Error -> {

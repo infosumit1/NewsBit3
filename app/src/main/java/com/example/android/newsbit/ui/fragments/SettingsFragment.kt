@@ -2,6 +2,7 @@ package com.example.android.newsbit.ui.fragments
 
 import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -32,7 +33,10 @@ class SettingsFragment : Fragment() {
     private lateinit var mainActivity: MainActivity
     private var theme : Int = 0
 
+    private var isNight : Boolean = false
     lateinit var switchButton: SwitchCompat
+
+    lateinit var sharedPreferences: SharedPreferences
 
     override fun onCreate(@Nullable savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -54,9 +58,28 @@ class SettingsFragment : Fragment() {
 
         switchButton=view.findViewById(R.id.switch1)
 
+        if (restorePrefData()) {
+            switchButton.isChecked = true
+        }
+        else{
+            switchButton.isChecked = false
+        }
+
         switchButton.setOnCheckedChangeListener({ _ , isChecked ->
-            if (isChecked) AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
-            else  AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+            if (isChecked) {
+                if(!restorePrefData()){
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+                    savePrefData(true)
+                    isNight = restorePrefData()
+                }
+            }
+            else {
+                if (restorePrefData()){
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+                    savePrefData(false)
+                    isNight = restorePrefData()
+                }
+            }
         })
 
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -125,10 +148,21 @@ class SettingsFragment : Fragment() {
         mainActivity.logOut()
     }
 
+    private fun savePrefData(b: Boolean) {
 
-//    private fun getPreference(): String
-//    {
-//        val sharedPreferences = requireActivity().getSharedPreferences("pref", Context.MODE_PRIVATE)
-//        return sharedPreferences.getString("theme", "default")!!
-//    }
+        sharedPreferences = requireActivity().getSharedPreferences("theme", Context.MODE_PRIVATE)
+        val editor = sharedPreferences!!.edit()
+        editor.putBoolean("isNight", b)
+//        editor.putString("theme","default")
+        editor.apply()
+    }
+
+    private fun restorePrefData(): Boolean {
+        sharedPreferences = requireActivity().getSharedPreferences("theme", Context.MODE_PRIVATE)
+        return sharedPreferences!!.getBoolean("isNight", false)
+
+    }
+
+
+
 }

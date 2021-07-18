@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_topNewsFragment_to_articleFragment"
             app:destination="@id/articleFragment" />
+        <action
+            android:id="@+id/action_topNewsFragment_to_noResponseFragment"
+            app:destination="@id/noResponseFragment" />
     </fragment>
     <fragment
         android:id="@+id/bookmarkFragment"
@@ -63,6 +66,9 @@
         <argument
             android:name="isCustomCategory"
             app:argType="boolean" />
+        <action
+            android:id="@+id/action_categoryNewsFragment_to_noResponseFragment"
+            app:destination="@id/noResponseFragment" />
     </fragment>
     <fragment
         android:id="@+id/sourceNewsFragment"
@@ -75,6 +81,9 @@
         <action
             android:id="@+id/action_sourceNewsFragment_to_articleFragment"
             app:destination="@id/articleFragment" />
+        <action
+            android:id="@+id/action_sourceNewsFragment_to_noResponseFragment"
+            app:destination="@id/noResponseFragment" />
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
@@ -93,4 +102,9 @@
             android:name="keyword"
             app:argType="string"/>
     </fragment>
+    <fragment
+        android:id="@+id/noResponseFragment"
+        android:name="com.example.android.newsbit.ui.fragments.NoResponseFragment"
+        android:label="fragment_no_response"
+        tools:layout="@layout/fragment_no_response" />
 </navigation>

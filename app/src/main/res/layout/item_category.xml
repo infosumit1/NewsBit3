@@ -7,8 +7,9 @@
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
     android:elevation="12dp"
-    app:cardBackgroundColor="#FFFFFF"
-    android:background="#FFFFFF">
+    app:cardBackgroundColor="?attr/colorSecondary"
+    android:background="?attr/colorSecondary"
+    >
 
     <LinearLayout
         android:layout_width="100dp"
@@ -30,7 +31,7 @@
             android:layout_height="wrap_content"
             android:text="Entertainment"
             android:layout_gravity="center"
-            android:textColor="?attr/colorPrimary"
+            android:textColor="?attr/colorSecondaryVariant"
             android:textSize="12sp"/>
 
     </LinearLayout>

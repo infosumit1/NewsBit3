@@ -115,8 +115,13 @@ class TopNewsFragment : Fragment(R.layout.fragment_top_news) {
                         /*Convert mutable list to normal list newsResponse.articles.toList()
                         & then submit */
                         Log.e(TAG, newsResponse.articles[0].title)
-                        newsAdapter.differ.submitList(newsResponse.articles.toList())
-                        totalResults=newsResponse.totalResults
+                        if(!newsResponse.articles.isNullOrEmpty()){
+                            newsAdapter.differ.submitList(newsResponse.articles.toList())
+                            totalResults = newsResponse.totalResults
+                        }
+                        else{
+                            findNavController().navigate(R.id.action_topNewsFragment_to_noResponseFragment)
+                        }
                     }
                 }
                 is Resource.Error -> {

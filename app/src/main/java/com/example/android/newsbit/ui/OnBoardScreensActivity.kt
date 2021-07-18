@@ -96,6 +96,7 @@ class OnBoardScreensActivity : AppCompatActivity() {
                 savePrefData()
                 val i = Intent(applicationContext, SignInActivity::class.java)
                 startActivity(i)
+                finish()
             }
         }
         previousText?.setOnClickListener {

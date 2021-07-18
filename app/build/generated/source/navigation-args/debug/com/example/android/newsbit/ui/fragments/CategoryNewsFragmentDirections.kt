@@ -2,6 +2,7 @@ package com.example.android.newsbit.ui.fragments
 
 import android.os.Bundle
 import android.os.Parcelable
+import androidx.navigation.ActionOnlyNavDirections
 import androidx.navigation.NavDirections
 import com.example.android.newsbit.R
 import com.example.android.newsbit.models.Article
@@ -34,5 +35,8 @@ public class CategoryNewsFragmentDirections private constructor() {
   public companion object {
     public fun actionCategoryNewsFragmentToArticleFragment(article: Article): NavDirections =
         ActionCategoryNewsFragmentToArticleFragment(article)
+
+    public fun actionCategoryNewsFragmentToNoResponseFragment(): NavDirections =
+        ActionOnlyNavDirections(R.id.action_categoryNewsFragment_to_noResponseFragment)
   }
 }
