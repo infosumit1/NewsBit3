@@ -64,12 +64,12 @@
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable\\search_view.xml"
     },
     {
-        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_news.png.flat",
-        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable\\news.png"
-    },
-    {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_search.xml.flat",
         "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_news.png.flat",
+        "source": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\src\\main\\res\\drawable\\news.png"
     },
     {
         "merged": "F:\\Project\\NEWS BIT 10th july\\NewsBit2-master2\\NewsBit2-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_p.png.flat",

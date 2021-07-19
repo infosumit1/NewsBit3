@@ -31,19 +31,12 @@ class MainActivity : AppCompatActivity() {
     private lateinit var currentUser: FirebaseUser
     private lateinit var googleSignInClient: GoogleSignInClient
     private val TAG = "Main Activity"
-    private lateinit var sharedPreferences: SharedPreferences
+
     lateinit var phonenumber: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
-
-        if (restorePrefData()){
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
-        }
-        else{
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-        }
 
 
 
@@ -91,6 +84,9 @@ class MainActivity : AppCompatActivity() {
         viewModel = ViewModelProvider(this, viewModelProviderFactory).get(NewsViewModel::class.java)
 
         setTheme(R.style.Theme_NewsBit)
+
+
+
         setContentView(R.layout.activity_main)
 
         if (this::viewModel.isInitialized) {
@@ -121,9 +117,5 @@ class MainActivity : AppCompatActivity() {
         finish()
     }
 
-    private fun restorePrefData(): Boolean {
-        sharedPreferences = applicationContext.getSharedPreferences("theme", Context.MODE_PRIVATE)
-        return sharedPreferences!!.getBoolean("isNight", false)
 
-    }
 }

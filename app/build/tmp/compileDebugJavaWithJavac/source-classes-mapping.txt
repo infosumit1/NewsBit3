@@ -1,15 +1,5 @@
 com/example/android/newsbit/BuildConfig.java
  com.example.android.newsbit.BuildConfig
-com/example/android/newsbit/db/ArticleDatabase_Impl.java
- com.example.android.newsbit.db.ArticleDatabase_Impl
- com.example.android.newsbit.db.ArticleDatabase_Impl$1
-com/example/android/newsbit/db/ArticleDao_Impl.java
- com.example.android.newsbit.db.ArticleDao_Impl
- com.example.android.newsbit.db.ArticleDao_Impl$1
- com.example.android.newsbit.db.ArticleDao_Impl$2
- com.example.android.newsbit.db.ArticleDao_Impl$3
- com.example.android.newsbit.db.ArticleDao_Impl$4
- com.example.android.newsbit.db.ArticleDao_Impl$5
 com/example/android/newsbit/databinding/ActivityOnBoardScreensBinding.java
  com.example.android.newsbit.databinding.ActivityOnBoardScreensBinding
 com/example/android/newsbit/databinding/FragmentBookmarkBinding.java
@@ -20,6 +10,13 @@ com/example/android/newsbit/databinding/FragmentSearchBinding.java
  com.example.android.newsbit.databinding.FragmentSearchBinding
 com/example/android/newsbit/databinding/ItemErrorMessageBinding.java
  com.example.android.newsbit.databinding.ItemErrorMessageBinding
+com/example/android/newsbit/db/ArticleDao_Impl.java
+ com.example.android.newsbit.db.ArticleDao_Impl
+ com.example.android.newsbit.db.ArticleDao_Impl$1
+ com.example.android.newsbit.db.ArticleDao_Impl$2
+ com.example.android.newsbit.db.ArticleDao_Impl$3
+ com.example.android.newsbit.db.ArticleDao_Impl$4
+ com.example.android.newsbit.db.ArticleDao_Impl$5
 com/example/android/newsbit/databinding/FragmentNoResponseBinding.java
  com.example.android.newsbit.databinding.FragmentNoResponseBinding
 com/example/android/newsbit/databinding/FragmentTopNewsBinding.java
@@ -42,3 +39,6 @@ com/example/android/newsbit/databinding/ActivityMainBinding.java
  com.example.android.newsbit.databinding.ActivityMainBinding
 com/example/android/newsbit/databinding/FragmentSettingsBinding.java
  com.example.android.newsbit.databinding.FragmentSettingsBinding
+com/example/android/newsbit/db/ArticleDatabase_Impl.java
+ com.example.android.newsbit.db.ArticleDatabase_Impl
+ com.example.android.newsbit.db.ArticleDatabase_Impl$1

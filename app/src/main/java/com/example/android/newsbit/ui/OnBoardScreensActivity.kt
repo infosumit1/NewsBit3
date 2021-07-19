@@ -73,14 +73,14 @@ class OnBoardScreensActivity : AppCompatActivity() {
         onBoardingScreens.add(
             OnBoardingScreens(
                 "Search",
-                "Get latest update and news in Realtime",
+                "Search News using keyword",
                 R.drawable.search
             )
         )
         onBoardingScreens.add(
             OnBoardingScreens(
                 "Bookmark",
-                "Get latest update and news in Realtime",
+                "Bookmark Articles to Save and Read Later",
                 R.drawable.bookmark
             )
         )

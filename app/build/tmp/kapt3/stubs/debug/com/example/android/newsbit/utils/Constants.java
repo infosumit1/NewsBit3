@@ -7,7 +7,7 @@ public final class Constants {
     @org.jetbrains.annotations.NotNull()
     public static final com.example.android.newsbit.utils.Constants.Companion Companion = null;
     @org.jetbrains.annotations.NotNull()
-    public static final java.lang.String API_KEY = "b555abf6dd3145589a84fd76e00adf9d";
+    public static final java.lang.String API_KEY = "7531a6a0c2374a0bb40ace49a26b7592";
     @org.jetbrains.annotations.NotNull()
     public static final java.lang.String BASE_URL = "https://newsapi.org";
     

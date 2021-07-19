@@ -1,10 +1,13 @@
 package com.example.android.newsbit.ui.fragments
 
+import android.content.Context
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.*
 import androidx.activity.OnBackPressedCallback
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
@@ -41,6 +44,7 @@ class TopNewsFragment : Fragment(R.layout.fragment_top_news) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
 
         viewModel = (activity as MainActivity).viewModel
         
@@ -218,5 +222,6 @@ class TopNewsFragment : Fragment(R.layout.fragment_top_news) {
             addOnScrollListener(newsScrollListener) //using scroll listener for paging
         }
     }
+
 
 }
